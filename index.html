@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inspector Hale Puzzles</title>
+<meta name="description" content="Cosy murder mystery logic puzzle books by Gil Vance R. Floor plans, hints and one solution per case.">
+<meta property="og:title" content="Inspector Hale Puzzles">
+<meta property="og:description" content="Cosy murder mystery logic puzzle books by Gil Vance R.">
+<meta property="og:image" content="https://inspectorhalepuzzles.github.io/case-files.jpg">
+<link rel="icon" href="avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#120c09;--card:#1f1611;--line:#3a2a20;--gold:#f0dcb0;--red:#a8322a;--text:#efe6da;--muted:#b9a894}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(ellipse at top,#2a1c14 0%,var(--bg) 60%);color:var(--text);
+       font-family:Inter,system-ui,sans-serif;min-height:100vh}
+  main{max-width:520px;margin:0 auto;padding:40px 16px 56px;text-align:center}
+  .avatar{width:96px;height:96px;border-radius:50%;border:3px solid var(--red);object-fit:cover}
+  h1{font-family:"Playfair Display",Georgia,serif;color:var(--gold);font-size:30px;margin:14px 0 4px}
+  .tag{color:var(--muted);margin:0 0 6px;font-size:15px}
+  .by{color:var(--muted);font-size:13px;margin:0 0 28px}
+  .book{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:0 0 18px;
+        display:flex;gap:16px;align-items:center;text-align:left}
+  .book img{width:110px;border-radius:6px;box-shadow:0 6px 18px #0009;flex:none}
+  .book h2{font-family:"Playfair Display",Georgia,serif;font-size:19px;color:var(--gold);margin:0 0 4px}
+  .book p{margin:0 0 12px;color:var(--muted);font-size:13.5px;line-height:1.4}
+  .btns{display:flex;gap:8px;flex-wrap:wrap}
+  .btn{flex:1 1 110px;display:block;padding:11px 12px;border-radius:10px;text-decoration:none;font-weight:600;
+       font-size:14px;text-align:center;background:var(--red);color:#fff;transition:filter .15s}
+  .btn.alt{background:transparent;border:1.5px solid var(--red);color:var(--gold)}
+  .btn:hover{filter:brightness(1.15)}
+  .btn[href="#"]{opacity:.45;pointer-events:none}
+  .social{margin-top:26px;display:flex;justify-content:center;gap:12px}
+  .social a{color:var(--gold);font-size:14px;text-decoration:none;border:1px solid var(--line);padding:8px 14px;border-radius:999px}
+  footer{margin-top:28px;color:#7d6c5c;font-size:12px}
+  @media (max-width:380px){.book{flex-direction:column;text-align:center}.book img{width:150px}}
+</style>
+</head>
+<body>
+<main>
+  <img class="avatar" src="avatar.jpg" alt="Magnifying glass over a floor plan">
+  <h1>Inspector Hale Puzzles</h1>
+  <p class="tag">Cosy murder mystery logic puzzles 🕵️</p>
+  <p class="by">by Gil Vance R. · floor plans · hints · one solution per case</p>
+
+  <section class="book">
+    <img src="case-files.jpg" alt="Inspector Hale's Case Files cover">
+    <div>
+      <h2>Inspector Hale's Case Files</h2>
+      <p>100 murder mystery logic puzzles, from easy to expert.</p>
+      <div class="btns">
+        <a class="btn" href="https://www.amazon.com/dp/B0HPZ7PHSN" id="cf-us">🇺🇸 Amazon US</a>
+        <a class="btn alt" href="https://www.amazon.co.uk/dp/B0HPZ7PHSN" id="cf-uk">🇬🇧 Amazon UK</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="book">
+    <img src="christmas-cases.jpg" alt="Inspector Hale's Christmas Cases cover">
+    <div>
+      <h2>Inspector Hale's Christmas Cases</h2>
+      <p>50 Christmas murder mysteries plus a 24-day advent calendar of mini mysteries.</p>
+      <div class="btns">
+        <a class="btn" href="#" id="xc-us">🇺🇸 Amazon US</a>
+        <a class="btn alt" href="#" id="xc-uk">🇬🇧 Amazon UK</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="social">
+    <a href="https://www.instagram.com/inspectorhalepuzzles/">Instagram</a>
+    <a href="https://www.tiktok.com/@inspectorhalepuzzles">TikTok</a>
+  </div>
+  <footer>© 2026 Gil Vance R.</footer>
+</main>
+</body>
+</html>
